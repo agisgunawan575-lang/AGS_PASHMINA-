@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGS Pashmina | Koleksi Kerudung Pashmina Elegan & Modern</title>
+    
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                    },
+                    colors: {
+                        pastel: {
+                            50: '#FFF8FA',
+                            100: '#FFF0F5', // Soft Pastel Pink Utama
+                            200: '#FFE0EB',
+                            300: '#FFC2D6',
+                        },
+                        blush: {
+                            300: '#F5A3B8',
+                            400: '#E8839E',
+                            500: '#D66483',
+                            600: '#B84A68',
+                        },
+                        rosegold: {
+                            300: '#E8B4B8',
+                            400: '#D48C94',
+                            500: '#B76E79', // Rose Gold
+                            600: '#9A545E',
+                        },
+                        plum: {
+                            700: '#6B4854',
+                            800: '#4E313B',
+                            900: '#361F27',
+                        },
+                        gold: {
+                            300: '#F3D999',
+                            400: '#DFB763',
+                            500: '#C59B42',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Scrollbar Nuansa Pink Lembut */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FFF0F5;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #E8B4B8;
+            border-radius: 9999px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #B76E79;
+        }
+
+        .glass-header {
+            background: rgba(255, 248, 250, 0.88);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+
+        /* Tekstur Kain Halus untuk Preview Pashmina */
+        .fabric-sheen {
+            background-image: radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.45) 0%, transparent 60%),
+                              repeating-linear-gradient(45deg, rgba(255,255,255,0.06) 0px, rgba(255,255,255,0.06) 2px, transparent 2px, transparent 6px);
+        }
+
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-6px); }
+        }
+        .animate-float {
+            animation: floatSlow 4s ease-in-out infinite;
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(16px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .animate-slide-up {
+            animation: slideUp 0.3s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="bg-pastel-50 text-plum-900 font-sans antialiased selection:bg-rosegold-500 selection:text-white">
+
+    <!-- Top Promo Ribbon -->
+    <div class="bg-gradient-to-r from-rosegold-600 via-blush-500 to-rosegold-600 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium tracking-wide shadow-sm">
+        <span class="inline-block mr-1">🌸</span>
+        PROMO CANTIK HARI INI: Beli minimal <strong>3 pcs Pashmina</strong> otomatis Diskon <strong>Rp 15.000</strong> + Gratis Jarum Pentul Rose-Gold!
+    </div>
+
+    <!-- Sticky Header & Navigasi -->
+    <header class="sticky top-0 z-40 glass-header border-b border-pastel-200 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                
+                <!-- Brand Logo SVG Kustom & Nama Toko AGS Pashmina -->
+                <a href="#dashboard" class="flex items-center gap-3 group focus:outline-none">
+                    <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rosegold-400 via-blush-400 to-gold-400 p-0.5 shadow-md group-hover:scale-105 transition-transform duration-300">
+                        <div class="w-full h-full bg-pastel-50 rounded-[14px] flex items-center justify-center relative overflow-hidden">
+                            <!-- Custom SVG Logo: Siluet Lipatan Kain Pashmina + Mahkota Rose-Gold -->
+                            <svg class="w-9 h-9" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Mahkota Kecil Rose-Gold di Atas -->
+                                <path d="M25 14L28 18L32 13L36 18L39 14L38 20H26L25 14Z" fill="#DFB763" stroke="#B76E79" stroke-width="1.2" stroke-linejoin="round"/>
+                                <!-- Siluet Lipatan Kain Pashmina Lembut -->
+                                <path d="M17 47C15 33 21 21 33 21C44 21 48 31 44 41C41 48 32 51 24 49" stroke="#B76E79" stroke-width="3.2" stroke-linecap="round"/>
+                                <path d="M22 51C25 38 33 28 47 29C51 29.5 53 33 50 37C45 44 35 48 28 53" stroke="#E8839E" stroke-width="2.8" stroke-linecap="round"/>
+                                <!-- Pin / Bros Mutiara Emas -->
+                                <circle cx="32" cy="34" r="3.2" fill="#DFB763"/>
+                                <circle cx="32" cy="34" r="1.4" fill="#FFF8FA"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-baseline gap-1.5">
+                            <span class="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-plum-900">AGS</span>
+                            <span class="font-serif text-2xl sm:text-3xl italic font-semibold text-rosegold-500">Pashmina</span>
+                        </div>
+                        <p class="text-[10px] sm:text-[11px] uppercase tracking-[0.22em] text-plum-700 -mt-1 font-semibold">Feminine &amp; Elegant Hijab</p>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#dashboard" class="text-sm font-semibold text-plum-800 hover:text-rosegold-500 transition-colors">Dashboard</a>
+                    <a href="#katalog" class="text-sm font-semibold text-plum-800 hover:text-rosegold-500 transition-colors">Katalog Model</a>
+                    <a href="#lokasi" class="text-sm font-semibold text-plum-800 hover:text-rosegold-500 transition-colors">Info &amp; Alamat Toko</a>
+                </nav>
+
+                <!-- Action Buttons -->
+                <div class="flex items-center gap-2.5 sm:gap-3">
+                    <!-- Direct WA Toko -->
+                    <a href="https://wa.me/6281234567890?text=Halo%20Admin%20AGS%20Pashmina%20%F0%9F%8C%B8%2C%20saya%20ingin%20tanya%20koleksi%20pashminanya." 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-pastel-100 border border-pastel-300 text-rosegold-600 hover:bg-rosegold-500 hover:text-white text-xs font-semibold transition-all">
+                        <i class="fa-brands fa-whatsapp text-base"></i>
+                        <span>WA Toko</span>
+                    </a>
+
+                    <!-- Cart Button dengan Badge -->
+                    <button onclick="toggleCart(true)" 
+                            class="relative px-4 py-2.5 rounded-2xl bg-gradient-to-r from-rosegold-500 to-blush-500 hover:from-rosegold-600 hover:to-blush-600 text-white shadow-md shadow-rosegold-500/20 transition-all flex items-center gap-2 group"
+                            aria-label="Buka Keranjang">
+                        <i class="fa-solid fa-bag-shopping text-sm group-hover:scale-110 transition-transform"></i>
+                        <span class="text-xs font-bold">Keranjang</span>
+                        <span id="header-cart-badge" 
+                              class="bg-white text-rosegold-600 text-[11px] font-extrabold w-5 h-5 rounded-full flex items-center justify-center shadow-sm">
+                            0
+                        </span>
+                    </button>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button onclick="toggleMobileMenu()" class="md:hidden p-2.5 rounded-xl bg-pastel-100 text-plum-800 hover:bg-pastel-200" aria-label="Menu">
+                        <i class="fa-solid fa-bars text-base"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-pastel-50 border-b border-pastel-200 px-4 pt-2 pb-4 space-y-1.5 shadow-lg">
+            <a href="#dashboard" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-plum-800 hover:bg-pastel-100">Dashboard</a>
+            <a href="#katalog" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-plum-800 hover:bg-pastel-100">Katalog Model Pashmina</a>
+            <a href="#lokasi" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-plum-800 hover:bg-pastel-100">Info &amp; Alamat Toko</a>
+        </div>
+    </header>
+
+    <!-- Dashboard & Hero Section Nuansa Pink Muda -->
+    <section id="dashboard" class="relative overflow-hidden pt-8 pb-14 lg:pt-12 lg:pb-20 bg-gradient-to-b from-pastel-100 via-pastel-50 to-pastel-50">
+        <!-- Decorative Soft Pink & Gold Blobs -->
+        <div class="absolute top-0 right-0 -z-0 w-96 h-96 bg-pastel-200/70 rounded-full blur-3xl translate-x-1/3 -translate-y-1/4 pointer-events-none"></div>
+        <div class="absolute bottom-10 left-0 -z-0 w-80 h-80 bg-rosegold-300/25 rounded-full blur-3xl -translate-x-1/3 pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <!-- Hero Banner Utama -->
+            <div class="rounded-[2.25rem] bg-gradient-to-br from-pastel-100 via-white to-pastel-200/80 border border-pastel-200 p-6 sm:p-10 lg:p-12 shadow-xl shadow-rosegold-500/5">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+                    
+                    <!-- Kolom Kiri: Copywriting & CTA -->
+                    <div class="lg:col-span-7 space-y-5 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/90 border border-rosegold-300/60 text-rosegold-600 text-xs font-bold shadow-sm">
+                            <i class="fa-solid fa-sparkles text-gold-500"></i>
+                            <span>Koleksi Eksklusif Butik • Jahit Tepi Rapi</span>
+                        </div>
+
+                        <h1 class="font-serif text-4xl sm:text-5xl lg:text-[3.4rem] font-bold text-plum-900 leading-[1.12]">
+                            Pancarkan Keanggunan Lembut Bersama <span class="text-rosegold-500 italic">AGS Pashmina</span>
+                        </h1>
+
+                        <p class="text-plum-700 text-sm sm:text-base max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                            Koleksi kerudung pashmina terlengkap dengan nuansa warna pastel &amp; earth-tone yang menawan. Mulai dari Ceruty Babydoll, Silk Satin, Kaos Rayon, hingga Inner 2-in-1 yang nyaman dipakai seharian.
+                        </p>
+
+                        <!-- Tombol CTA -->
+                        <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5 pt-2">
+                            <a href="#katalog" 
+                               class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-rosegold-500 to-blush-500 hover:from-rosegold-600 hover:to-blush-600 text-white font-bold text-sm shadow-lg shadow-rosegold-500/25 transition-all flex items-center justify-center gap-2">
+                                <span>Lihat Koleksi</span>
+                                <i class="fa-solid fa-arrow-down text-xs"></i>
+                            </a>
+                            <button onclick="toggleCart(true)" 
+                                    class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-white hover:bg-pastel-100 text-plum-900 border border-pastel-300 font-bold text-sm shadow-sm transition-all flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-bag-shopping text-rosegold-500"></i>
+                                <span>Cek Keranjang (<span id="hero-cart-count">0</span>)</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Kolom Kanan: Ilustrasi Artistik Hijab Pashmina Nuansa Rose-Gold -->
+                    <div class="lg:col-span-5">
+                        <div class="relative mx-auto max-w-sm">
+                            <div class="rounded-[2rem] bg-gradient-to-tr from-pastel-200 via-pastel-50 to-white p-5 border border-white shadow-lg animate-float">
+                                <div class="aspect-square rounded-3xl bg-pastel-100/70 fabric-sheen border border-pastel-200 flex flex-col items-center justify-center p-4 relative overflow-hidden">
+                                    <!-- SVG Ilustrasi Figur Wanita Berhijab Pashmina Anggun -->
+                                    <svg class="w-52 h-52 sm:w-60 sm:h-60 drop-shadow-md" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <!-- Lingkaran Bingkai Emas Lembut -->
+                                        <circle cx="130" cy="130" r="106" fill="#FFF8FA"/>
+                                        <circle cx="130" cy="130" r="96" stroke="#DFB763" stroke-width="1.2" stroke-dasharray="5 5"/>
+                                        
+                                        <!-- Drapery Belakang Pashmina -->
+                                        <path d="M64 205C58 135 80 58 130 58C180 58 202 135 196 205H64Z" fill="#FAD2E0"/>
+                                        <path d="M72 205C68 142 86 68 130 68C174 68 192 142 188 205H72Z" fill="#F5A3B8" fill-opacity="0.55"/>
+                                        
+                                        <!-- Siluet Wajah Lembut -->
+                                        <path d="M104 114C104 96 115 84 130 84C145 84 156 96 156 114C156 132 144 146 130 146C116 146 104 132 104 114Z" fill="#FDE6E0"/>
+                                        <!-- Ciput / Inner -->
+                                        <path d="M104 108C106 91 116 82 130 82C144 82 154 91 156 108C149 98 140 94 130 94C120 94 111 98 104 108Z" fill="#B76E79"/>
+                                        
+                                        <!-- Lipatan Pashmina Mengalir di Dada & Bahu -->
+                                        <path d="M84 135C95 148 114 156 136 152C160 148 175 132 182 115C188 148 184 185 174 208H82C76 185 78 158 84 135Z" fill="#E8839E" fill-opacity="0.85"/>
+                                        <path d="M90 154C112 168 146 168 174 148" stroke="#FFF8FA" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.8"/>
+                                        <path d="M86 174C114 188 150 186 178 168" stroke="#FFF8FA" stroke-width="2" stroke-linecap="round" stroke-opacity="0.65"/>
+                                        
+                                        <!-- Bros Mutiara & Emas di Bahu -->
+                                        <circle cx="152" cy="154" r="7" fill="#DFB763"/>
+                                        <circle cx="152" cy="154" r="3" fill="#FFF8FA"/>
+                                        
+                                        <!-- Aksen Kelopak Bunga Pastel -->
+                                        <circle cx="62" cy="82" r="5" fill="#F5A3B8" fill-opacity="0.6"/>
+                                        <circle cx="198" cy="76" r="4" fill="#DFB763" fill-opacity="0.7"/>
+                                        <circle cx="204" cy="176" r="6" fill="#F5A3B8" fill-opacity="0.5"/>
+                                    </svg>
+
+                                    <div class="text-center -mt-2">
+                                        <span class="inline-block px-3 py-1 rounded-full bg-white text-rosegold-600 text-[10px] font-bold uppercase tracking-widest shadow-sm">
+                                            Signature Rose Series
+                                        </span>
+                                        <p class="font-serif text-lg font-bold text-plum-900 mt-1">180 x 75 cm • Premium Grade A</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kartu Statistik Dashboard Interaktif (4 Kartu) -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+                <!-- Stat 1: Total Model -->
+                <div onclick="filterCategory('Semua')" class="cursor-pointer bg-white hover:bg-pastel-100/70 p-4 sm:p-5 rounded-3xl border border-pastel-200 shadow-sm transition-all flex items-center gap-3.5 group">
+                    <div class="w-12 h-12 rounded-2xl bg-pastel-100 text-rosegold-500 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <div>
+                        <p class="text-[11px] font-semibold text-plum-700 uppercase tracking-wider">Total Model</p>
+                        <p class="font-serif text-2xl font-bold text-plum-900">8 Model</p>
+                        <p class="text-[11px] text-rosegold-500 font-medium">40+ Pilihan Warna</p>
+                    </div>
+                </div>
+
+                <!-- Stat 2: Koleksi Terlaris -->
+                <div onclick="filterCategory('Best Seller')" class="cursor-pointer bg-white hover:bg-pastel-100/70 p-4 sm:p-5 rounded-3xl border border-pastel-200 shadow-sm transition-all flex items-center gap-3.5 group">
+                    <div class="w-12 h-12 rounded-2xl bg-amber-50 text-gold-500 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <div>
+                        <p class="text-[11px] font-semibold text-plum-700 uppercase tracking-wider">Koleksi Terlaris</p>
+                        <p class="font-serif text-xl sm:text-2xl font-bold text-plum-900">Ceruty &amp; Silk</p>
+                        <p class="text-[11px] text-gold-500 font-medium">15.400+ Terjual</p>
+                    </div>
+                </div>
+
+                <!-- Stat 3: Promo Hari Ini -->
+                <div onclick="toggleCart(true)" class="cursor-pointer bg-white hover:bg-pastel-100/70 p-4 sm:p-5 rounded-3xl border border-pastel-200 shadow-sm transition-all flex items-center gap-3.5 group">
+                    <div class="w-12 h-12 rounded-2xl bg-pink-100 text-blush-600 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+                    <div>
+                        <p class="text-[11px] font-semibold text-plum-700 uppercase tracking-wider">Promo Hari Ini</p>
+                        <p class="font-serif text-xl sm:text-2xl font-bold text-blush-600">Diskon 15rb</p>
+                        <p class="text-[11px] text-plum-700 font-medium">Min. Beli 3 Pcs</p>
+                    </div>
+                </div>
+
+                <!-- Stat 4: Status Toko -->
+                <a href="#lokasi" class="bg-white hover:bg-pastel-100/70 p-4 sm:p-5 rounded-3xl border border-pastel-200 shadow-sm transition-all flex items-center gap-3.5 group">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <div>
+                        <p class="text-[11px] font-semibold text-plum-700 uppercase tracking-wider">Status Toko</p>
+                        <div class="flex items-center gap-1.5">
+                            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+                            <p class="font-serif text-xl sm:text-2xl font-bold text-emerald-700">Buka</p>
+                        </div>
+                        <p class="text-[11px] text-plum-700 font-medium">08.00 – 20.00 WIB</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Katalog Model-Model Pashmina -->
+    <section id="katalog" class="py-14 bg-pastel-100/60 border-y border-pastel-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Header Katalog -->
+            <div class="text-center max-w-2xl mx-auto mb-8">
+                <span class="text-xs font-bold uppercase tracking-[0.22em] text-rosegold-500">Katalog Model Pashmina</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-plum-900 mt-1.5">Pilih Model &amp; Warna Favoritmu</h2>
+                <p class="text-xs sm:text-sm text-plum-700 mt-2">
+                    Klik bulatan warna pada setiap kartu produk untuk melihat perubahan warna kain pashmina secara langsung.
+                </p>
+            </div>
+
+            <!-- Bar Filter Kategori & Pencarian -->
+            <div class="bg-white p-4 rounded-3xl border border-pastel-200 shadow-sm mb-8">
+                <div class="flex flex-col lg:flex-row justify-between items-stretch lg:items-center gap-4">
+                    
+                    <!-- Tab Filter Kategori -->
+                    <div id="category-tabs" class="flex items-center gap-2 overflow-x-auto pb-1 lg:pb-0">
+                        <button onclick="filterCategory('Semua')" data-cat="Semua" 
+                                class="cat-tab px-4 py-2.5 rounded-xl text-xs font-bold whitespace-nowrap bg-rosegold-500 text-white shadow-sm transition-all">
+                            Semua (8)
+                        </button>
+                        <button onclick="filterCategory('Best Seller')" data-cat="Best Seller" 
+                                class="cat-tab px-4 py-2.5 rounded-xl text-xs font-semibold whitespace-nowrap bg-pastel-100 text-plum-800 hover:bg-pastel-200 transition-all">
+                            ✨ Best Seller
+                        </button>
+                        <button onclick="filterCategory('Daily/Kaos')" data-cat="Daily/Kaos" 
+                                class="cat-tab px-4 py-2.5 rounded-xl text-xs font-semibold whitespace-nowrap bg-pastel-100 text-plum-800 hover:bg-pastel-200 transition-all">
+                            Daily / Kaos
+                        </button>
+                        <button onclick="filterCategory('Kondangan/Premium')" data-cat="Kondangan/Premium" 
+                                class="cat-tab px-4 py-2.5 rounded-xl text-xs font-semibold whitespace-nowrap bg-pastel-100 text-plum-800 hover:bg-pastel-200 transition-all">
+                            Kondangan / Premium
+                        </button>
+                        <button onclick="filterCategory('Instan')" data-cat="Instan" 
+                                class="cat-tab px-4 py-2.5 rounded-xl text-xs font-semibold whitespace-nowrap bg-pastel-100 text-plum-800 hover:bg-pastel-200 transition-all">
+                            Instan &amp; Praktis
+                        </button>
+                    </div>
+
+                    <!-- Kolom Pencarian -->
+                    <div class="relative w-full lg:w-72">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-rosegold-400 text-xs"></i>
+                        <input type="text" 
+                               id="search-input" 
+                               oninput="handleSearch(this.value)"
+                               placeholder="Cari Ceruty, Silk, Kaos, Plisket..." 
+                               class="w-full pl-9 pr-4 py-2.5 rounded-xl bg-pastel-50 border border-pastel-200 text-xs text-plum-900 placeholder-plum-700/50 focus:outline-none focus:border-rosegold-500">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grid Katalog 8 Model Pashmina -->
+            <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Kartu produk di-render via JavaScript -->
+            </div>
+
+            <!-- Empty Search State -->
+            <div id="empty-state" class="hidden text-center py-14 bg-white rounded-3xl border border-pastel-200">
+                <div class="w-16 h-16 rounded-full bg-pastel-100 text-rosegold-500 flex items-center justify-center mx-auto mb-3 text-2xl">
+                    <i class="fa-regular fa-face-sad-tear"></i>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-plum-900">Model pashmina tidak ditemukan</h3>
+                <p class="text-xs text-plum-700 mt-1 mb-4">Coba cari dengan kata kunci lain atau tampilkan semua koleksi.</p>
+                <button onclick="resetFilters()" class="px-5 py-2.5 rounded-xl bg-rosegold-500 text-white text-xs font-bold hover:bg-rosegold-600">
+                    Tampilkan Semua Model
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Informasi Alamat Toko, Link Pemesanan & Footer -->
+    <footer id="lokasi" class="bg-plum-900 text-pastel-100 pt-14 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 pb-12 border-b border-plum-800">
+                
+                <!-- Kolom 1: Profil AGS Pashmina & Media Sosial -->
+                <div class="lg:col-span-4 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-11 h-11 rounded-2xl bg-pastel-50 flex items-center justify-center shadow">
+                            <svg class="w-8 h-8" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 14L28 18L32 13L36 18L39 14L38 20H26L25 14Z" fill="#DFB763" stroke="#B76E79" stroke-width="1.2"/>
+                                <path d="M17 47C15 33 21 21 33 21C44 21 48 31 44 41C41 48 32 51 24 49" stroke="#B76E79" stroke-width="3.2" stroke-linecap="round"/>
+                                <path d="M22 51C25 38 33 28 47 29C51 29.5 53 33 50 37C45 44 35 48 28 53" stroke="#E8839E" stroke-width="2.8" stroke-linecap="round"/>
+                                <circle cx="32" cy="34" r="3.2" fill="#DFB763"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="font-serif text-2xl font-bold text-white">AGS <span class="text-blush-300 italic">Pashmina</span></span>
+                            <p class="text-[10px] uppercase tracking-widest text-pastel-300">Elegant Hijab Boutique</p>
+                        </div>
+                    </div>
+
+                    <p class="text-xs text-pastel-200/85 leading-relaxed">
+                        Butik kerudung pashmina modern dengan kualitas bahan pilihan dan jahit tepi rapi. Melayani pembelian eceran, paket kado bridesmaid, hingga reseller seluruh Indonesia.
+                    </p>
+
+                    <!-- Link Pemesanan & Sosial Media -->
+                    <div class="pt-1">
+                        <p class="text-[11px] font-bold uppercase tracking-wider text-gold-300 mb-2.5">Link Pemesanan &amp; Sosial Media:</p>
+                        <div class="flex flex-wrap gap-2">
+                            <a href="https://wa.me/6281234567890?text=Halo%20AGS%20Pashmina%2C%20saya%20ingin%20memesan%20pashmina." 
+                               target="_blank" rel="noopener noreferrer"
+                               class="px-3.5 py-2 rounded-xl bg-[#25D366] hover:bg-[#1ebe5d] text-white text-xs font-bold flex items-center gap-1.5 transition-colors">
+                                <i class="fa-brands fa-whatsapp text-sm"></i> Chat WA Langsung
+                            </a>
+                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                               class="w-9 h-9 rounded-xl bg-plum-800 hover:bg-blush-500 text-white flex items-center justify-center transition-colors" title="Instagram AGS Pashmina">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer"
+                               class="w-9 h-9 rounded-xl bg-plum-800 hover:bg-blush-500 text-white flex items-center justify-center transition-colors" title="TikTok AGS Pashmina">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                            <a href="https://shopee.co.id" target="_blank" rel="noopener noreferrer"
+                               class="w-9 h-9 rounded-xl bg-plum-800 hover:bg-blush-500 text-white flex items-center justify-center transition-colors" title="Shopee Official">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kolom 2: Alamat Toko & Kontak Resmi -->
+                <div class="lg:col-span-4 space-y-4">
+                    <h4 class="font-serif text-xl font-bold text-white">Alamat &amp; Kontak Toko</h4>
+                    <ul class="space-y-3.5 text-xs text-pastel-200/90">
+                        <li class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-xl bg-plum-800 text-blush-300 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-white">Butik Utama AGS Pashmina</p>
+                                <p class="mt-0.5 leading-relaxed">Jl. Melati Raya No. 28, Blok B, Kebayoran Baru, Jakarta Selatan 12160</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-xl bg-plum-800 text-emerald-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-white">Nomor WhatsApp Toko Resmi</p>
+                                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="text-blush-300 hover:underline font-bold text-sm">
+                                    0812-3456-7890
+                                </a>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-xl bg-plum-800 text-gold-300 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-white">Jam Operasional</p>
+                                <p class="mt-0.5">Senin – Minggu: 08.00 – 20.00 WIB</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Kolom 3: Kartu Lokasi & Tombol Google Maps -->
+                <div class="lg:col-span-4">
+                    <h4 class="font-serif text-xl font-bold text-white mb-3">Lokasi Butik Fisik</h4>
+                    <div class="rounded-2xl overflow-hidden border border-plum-700 bg-plum-800 p-3.5">
+                        <div class="rounded-xl bg-pastel-100 h-44 relative overflow-hidden flex items-center justify-center">
+                            <!-- Ilustrasi Peta Nuansa Soft Pink -->
+                            <svg class="w-full h-full object-cover" viewBox="0 0 400 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="400" height="180" fill="#FFE8F0"/>
+                                <rect x="24" y="20" width="95" height="55" rx="12" fill="#FAD2E0"/>
+                                <rect x="275" y="102" width="100" height="60" rx="12" fill="#FAD2E0"/>
+                                <path d="M0 92H400" stroke="#FFF8FA" stroke-width="14"/>
+                                <path d="M198 0V180" stroke="#FFF8FA" stroke-width="14"/>
+                                <path d="M0 92H400" stroke="#D48C94" stroke-width="1.5" stroke-dasharray="6 6"/>
+                                <path d="M198 0V180" stroke="#D48C94" stroke-width="1.5" stroke-dasharray="6 6"/>
+                                <!-- Pin Lokasi -->
+                                <circle cx="212" cy="76" r="22" fill="#D66483" fill-opacity="0.22"/>
+                                <path d="M212 46C201.5 46 193 54.5 193 65C193 79.2 212 96 212 96C212 96 231 79.2 231 65C231 54.5 222.5 46 212 46Z" fill="#B76E79"/>
+                                <circle cx="212" cy="65" r="6" fill="#FFF8FA"/>
+                            </svg>
+
+                            <div class="absolute bottom-2.5 left-2.5 right-2.5 bg-white/95 backdrop-blur px-3 py-2.5 rounded-xl flex items-center justify-between shadow-md">
+                                <div>
+                                    <p class="text-[11px] font-bold text-plum-900">AGS Pashmina Kebayoran</p>
+                                    <p class="text-[10px] text-plum-700">Jl. Melati Raya No. 28, Blok B</p>
+                                </div>
+                                <a href="https://maps.google.com/?q=Kebayoran+Baru+Jakarta+Selatan" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="px-3 py-1.5 rounded-lg bg-rosegold-500 hover:bg-rosegold-600 text-white text-[10px] font-bold transition-colors flex items-center gap-1">
+                                    <span>Buka di Google Maps</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-pastel-300/75">
+                <p>&copy; 2026 AGS Pashmina. All Rights Reserved.</p>
+                <p>Keanggunan Lembut di Setiap Lipatan 🌸</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6281234567890?text=Halo%20AGS%20Pashmina%20%F0%9F%8C%B8%2C%20saya%20ingin%20memesan%20kerudung%20pashmina." 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="fixed bottom-5 right-5 z-30 flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white px-4 py-3.5 rounded-full shadow-xl hover:scale-105 transition-all"
+       aria-label="Chat WhatsApp Toko">
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+        <span class="hidden sm:inline text-xs font-bold pr-1">Chat Admin WA</span>
+    </a>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="fixed bottom-20 right-5 z-50 space-y-2 pointer-events-none"></div>
+
+    <!-- Slide-over Drawer Keranjang Pemesanan -->
+    <div id="cart-drawer" class="fixed inset-0 z-50 hidden">
+        <!-- Backdrop -->
+        <div onclick="toggleCart(false)" class="fixed inset-0 bg-plum-900/50 backdrop-blur-sm transition-opacity"></div>
+
+        <!-- Drawer Panel -->
+        <div class="fixed inset-y-0 right-0 max-w-full w-full sm:w-[460px] bg-pastel-50 shadow-2xl flex flex-col justify-between z-10 border-l border-pastel-200">
+            
+            <!-- Drawer Header -->
+            <div class="p-5 bg-white border-b border-pastel-200 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-2xl bg-pastel-100 text-rosegold-500 flex items-center justify-center">
+                        <i class="fa-solid fa-bag-shopping text-base"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-serif text-xl font-bold text-plum-900">Keranjang Pesanan</h3>
+                        <p class="text-[11px] text-plum-700 font-medium" id="cart-subtitle">0 item dipilih</p>
+                    </div>
+                </div>
+                <button onclick="toggleCart(false)" class="w-9 h-9 rounded-xl bg-pastel-100 hover:bg-pastel-200 text-plum-800 flex items-center justify-center transition-colors" aria-label="Tutup Keranjang">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Drawer Body -->
+            <div class="flex-1 overflow-y-auto p-5 space-y-5">
+                
+                <!-- Daftar Item Keranjang -->
+                <div id="cart-items-container" class="space-y-3">
+                    <!-- Item keranjang dirender oleh JavaScript -->
+                </div>
+
+                <!-- Form Data Pemesan -->
+                <div id="checkout-form-section" class="hidden bg-white p-4 rounded-2xl border border-pastel-200 space-y-3 shadow-sm">
+                    <div class="flex items-center gap-2 border-b border-pastel-100 pb-2.5">
+                        <i class="fa-solid fa-address-card text-rosegold-500 text-sm"></i>
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-plum-900">Data Pemesan &amp; Pengiriman</h4>
+                    </div>
+
+                    <div>
+                        <label class="block text-[11px] font-semibold text-plum-800 mb-1">Nama Lengkap *</label>
+                        <input type="text" id="cust-name" placeholder="Contoh: Nabila Putri" 
+                               class="w-full px-3.5 py-2 rounded-xl bg-pastel-50 border border-pastel-200 text-xs focus:outline-none focus:border-rosegold-500">
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                        <div>
+                            <label class="block text-[11px] font-semibold text-plum-800 mb-1">Nomor WhatsApp *</label>
+                            <input type="tel" id="cust-phone" placeholder="0812xxxxxxxx" 
+                                   class="w-full px-3.5 py-2 rounded-xl bg-pastel-50 border border-pastel-200 text-xs focus:outline-none focus:border-rosegold-500">
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-semibold text-plum-800 mb-1">Metode Pengiriman</label>
+                            <select id="cust-shipping" class="w-full px-3 py-2 rounded-xl bg-pastel-50 border border-pastel-200 text-xs focus:outline-none focus:border-rosegold-500">
+                                <option value="Ekspedisi Reguler (J&T / JNE)">Ekspedisi Reguler</option>
+                                <option value="Instant / SameDay">Instant / SameDay</option>
+                                <option value="Ambil di Toko (Kebayoran Baru)">Ambil di Toko</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-[11px] font-semibold text-plum-800 mb-1">Alamat Pengiriman Lengkap *</label>
+                        <textarea id="cust-address" rows="2" placeholder="Nama jalan, nomor rumah, kecamatan, kota..." 
+                                  class="w-full px-3.5 py-2 rounded-xl bg-pastel-50 border border-pastel-200 text-xs focus:outline-none focus:border-rosegold-500"></textarea>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Drawer Footer (Ringkasan Harga & Tombol Checkout) -->
+            <div id="cart-footer" class="hidden p-5 bg-white border-t border-pastel-200 space-y-2.5">
+                <div class="flex justify-between items-center text-xs text-plum-700">
+                    <span>Subtotal (<span id="total-qty-text">0</span> pcs)</span>
+                    <span id="cart-subtotal" class="font-semibold">Rp 0</span>
+                </div>
+
+                <!-- Baris Diskon Promo Otomatis (>= 3 pcs) -->
+                <div id="discount-row" class="hidden flex justify-between items-center text-xs text-emerald-600 font-semibold">
+                    <span><i class="fa-solid fa-tag mr-1"></i> Diskon Promo (Min. 3 pcs)</span>
+                    <span>- Rp 15.000</span>
+                </div>
+
+                <div id="promo-hint" class="text-[11px] bg-pastel-100 text-rosegold-600 px-3 py-1.5 rounded-xl font-medium text-center">
+                    Tambah <span id="qty-to-promo" class="font-bold">3</span> pcs lagi untuk dapat Diskon Rp 15.000!
+                </div>
+
+                <div class="flex justify-between items-center pt-1.5 border-t border-pastel-100">
+                    <span class="text-sm font-bold text-plum-900">Total Pembayaran</span>
+                    <span id="cart-total" class="font-serif text-2xl font-bold text-rosegold-600">Rp 0</span>
+                </div>
+
+                <!-- Tombol Kirim Pesanan via WhatsApp -->
+                <button onclick="checkoutWhatsApp()" 
+                        class="w-full py-3.5 px-4 rounded-2xl bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold text-xs sm:text-sm shadow-lg shadow-[#25D366]/25 transition-all flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Kirim Pesanan via WhatsApp</span>
+                </button>
+
+                <!-- Tombol Salin Link & Detail Pesanan -->
+                <button onclick="copyOrderLink()" 
+                        class="w-full py-2.5 px-4 rounded-xl bg-pastel-100 hover:bg-pastel-200 text-plum-900 font-bold text-xs transition-colors flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-link text-rosegold-500"></i>
+                    <span>Salin Link &amp; Detail Pesanan</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- JavaScript Application Logic -->
+    <script>
+        // Nomor WhatsApp Toko Resmi AGS Pashmina
+        const STORE_WA_NUMBER = "6281234567890";
+
+        // 8 Model Pashmina Lengkap dengan Detail & Pilihan Warna
+        const products = [
+            {
+                id: "p1",
+                name: "Pashmina Ceruty Babydoll",
+                categories: ["Best Seller", "Daily/Kaos"],
+                price: 38000,
+                badge: "Best Seller",
+                material: "Ceruty Babydoll Armani",
+                size: "180 x 75 cm",
+                textureType: "flowy",
+                description: "Tekstur pasir lembut, jatuh anggun (flowy), sangat mudah dibentuk melengkung di dahi tanpa kaku.",
+                colors: [
+                    { name: "Dusty Pink", hex: "#D67A92" },
+                    { name: "Soft Blush", hex: "#F4B4C4" },
+                    { name: "Cream Latte", hex: "#DFC9B4" },
+                    { name: "Mocha", hex: "#8B6956" },
+                    { name: "Sage", hex: "#7C9686" },
+                    { name: "Black", hex: "#231F20" }
+                ]
+            },
+            {
+                id: "p2",
+                name: "Pashmina Silk Satin Premium",
+                categories: ["Best Seller", "Kondangan/Premium"],
+                price: 58000,
+                badge: "Premium Glam",
+                material: "Armani Silk Satin",
+                size: "180 x 75 cm",
+                textureType: "silk",
+                description: "Kilau mewah yang lembut di luar dan kesat di dalam sehingga tidak licin. Sempurna untuk pesta & wisuda.",
+                colors: [
+                    { name: "Rose Gold", hex: "#C87D87" },
+                    { name: "Champagne", hex: "#E5CEAD" },
+                    { name: "Maroon", hex: "#7A2838" },
+                    { name: "Soft Blush", hex: "#F2B8C6" },
+                    { name: "Silver Pearl", hex: "#C6C9CE" }
+                ]
+            },
+            {
+                id: "p3",
+                name: "Pashmina Kaos Jersey Rayon",
+                categories: ["Best Seller", "Daily/Kaos"],
+                price: 45000,
+                badge: "Super Adem",
+                material: "Spandex Rayon Super",
+                size: "180 x 70 cm",
+                textureType: "jersey",
+                description: "Bahan kaos rayon premium yang dingin, stretch mengikuti bentuk wajah, tanpa perlu setrika & jarum pentul.",
+                colors: [
+                    { name: "Soft Blush", hex: "#F0B6C5" },
+                    { name: "Cream Latte", hex: "#E2D2C1" },
+                    { name: "Mocha", hex: "#856553" },
+                    { name: "Sage", hex: "#799182" },
+                    { name: "Black", hex: "#222222" }
+                ]
+            },
+            {
+                id: "p4",
+                name: "Pashmina Inner 2-in-1 (Ninja)",
+                categories: ["Instan", "Daily/Kaos"],
+                price: 52000,
+                badge: "Anti Melorot",
+                material: "Ceruty + Ciput Ninja Rayon",
+                size: "180 x 75 cm",
+                textureType: "inner",
+                description: "Sudah terjahit menyatu dengan inner ninja menutup leher yang adem & anti pusing. Praktis tinggal slup!",
+                colors: [
+                    { name: "Dusty Pink", hex: "#D47890" },
+                    { name: "Cream Latte", hex: "#DEC7B0" },
+                    { name: "Mocha", hex: "#8A6855" },
+                    { name: "Maroon", hex: "#7B2A3A" },
+                    { name: "Black", hex: "#1E1E1E" }
+                ]
+            },
+            {
+                id: "p5",
+                name: "Pashmina Plisket Full Lidi",
+                categories: ["Instan", "Daily/Kaos"],
+                price: 42000,
+                badge: "Anti Kusut",
+                material: "Ceruty Plisket Lidi Rapat",
+                size: "180 x 75 cm",
+                textureType: "plisket",
+                description: "Lipatan plisket lidi kecil penuh tanpa garis tengah. Sangat praktis untuk traveling karena bebas kusut.",
+                colors: [
+                    { name: "Dusty Pink", hex: "#D87E95" },
+                    { name: "Soft Blush", hex: "#F5B8C8" },
+                    { name: "Sage", hex: "#7B9485" },
+                    { name: "Mocha", hex: "#8D6B58" },
+                    { name: "Maroon", hex: "#7E2B3B" }
+                ]
+            },
+            {
+                id: "p6",
+                name: "Pashmina Crinkle Airflow",
+                categories: ["Daily/Kaos", "Instan"],
+                price: 40000,
+                badge: "Ironless",
+                material: "Cey Crinkle Airflow",
+                size: "185 x 75 cm",
+                textureType: "crinkle",
+                description: "Tekstur kerut alami yang estetik, ringan, menyerap keringat, dan langsung rapi dipakai tanpa setrika.",
+                colors: [
+                    { name: "Soft Blush", hex: "#F2B3C3" },
+                    { name: "Cream Latte", hex: "#E0CCB8" },
+                    { name: "Sage", hex: "#7A9484" },
+                    { name: "Dusty Pink", hex: "#D2758D" },
+                    { name: "Black", hex: "#242021" }
+                ]
+            },
+            {
+                id: "p7",
+                name: "Pashmina Arabian Voile",
+                categories: ["Daily/Kaos", "Best Seller"],
+                price: 48000,
+                badge: "Tegak di Dahi",
+                material: "Voal Paris Arabian",
+                size: "185 x 75 cm",
+                textureType: "flowy",
+                description: "Serat voal halus yang tegak sempurna di dahi layaknya hijab segi empat namun dengan gaya pashmina modern.",
+                colors: [
+                    { name: "Cream Latte", hex: "#E4D1BD" },
+                    { name: "Dusty Pink", hex: "#D57991" },
+                    { name: "Sage", hex: "#789282" },
+                    { name: "Mocha", hex: "#876653" },
+                    { name: "Black", hex: "#212121" }
+                ]
+            },
+            {
+                id: "p8",
+                name: "Pashmina Shimmer Glam",
+                categories: ["Kondangan/Premium", "Best Seller"],
+                price: 62000,
+                badge: "Eid & Party",
+                material: "Yoryu Shimmer Silk",
+                size: "180 x 75 cm",
+                textureType: "silk",
+                description: "Efek kilau mutiara lembut bertekstur garis halus yang memberikan tampilan glamor elegan di acara spesial.",
+                colors: [
+                    { name: "Rose Blush", hex: "#E699AD" },
+                    { name: "Champagne Gold", hex: "#E2C9A2" },
+                    { name: "Dusty Rose", hex: "#C87288" },
+                    { name: "Maroon", hex: "#782636" },
+                    { name: "Pearl Ivory", hex: "#EFE6D8" }
+                ]
+            }
+        ];
+
+        // State Aplikasi
+        let selectedColors = {};
+        let cart = [];
+        let activeCategory = "Semua";
+        let searchQuery = "";
+
+        // Set warna awal setiap produk ke warna pertama
+        products.forEach(p => {
+            selectedColors[p.id] = p.colors[0];
+        });
+
+        // Format Rupiah
+        function formatRupiah(num) {
+            return new Intl.NumberFormat('id-ID', {
+                style: 'currency',
+                currency: 'IDR',
+                minimumFractionDigits: 0
+            }).format(num);
+        }
+
+        // Generator Ilustrasi Visual Pashmina Bertekstur Realistis yang Berubah Warna Dinamis
+        function getPashminaVisualSVG(product, colorHex) {
+            const isPlisket = product.textureType === "plisket";
+            const isSilk = product.textureType === "silk";
+            const isInner = product.textureType === "inner";
+
+            // Garis tekstur plisket atau kilau silk
+            const extraTexture = isPlisket ? `
+                <g stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1">
+                    <path d="M58 65L50 155"/><path d="M68 60L60 158"/><path d="M78 57L72 160"/>
+                    <path d="M88 55L84 162"/><path d="M98 55L96 162"/><path d="M108 57L108 160"/>
+                    <path d="M118 60L120 158"/><path d="M128 65L132 155"/>
+                </g>
+            ` : isSilk ? `
+                <path d="M54 95C76 82 108 82 134 95" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-opacity="0.45"/>
+                <path d="M50 122C78 108 112 108 138 122" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-opacity="0.35"/>
+            ` : "";
+
+            // Ciput ninja untuk model Inner 2-in-1
+            const innerLayer = isInner ? `
+                <path d="M74 68C74 56 82 48 94 48C106 48 114 56 114 68V96H74V68Z" fill="#4E313B" fill-opacity="0.85"/>
+            ` : "";
+
+            return `
+            <svg class="w-40 h-40 drop-shadow-md group-hover:scale-105 transition-transform duration-500" viewBox="0 0 188 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Lingkaran Latar Lembut -->
+                <circle cx="94" cy="94" r="78" fill="#FFFFFF" fill-opacity="0.78"/>
+                <circle cx="94" cy="94" r="71" stroke="#DFB763" stroke-width="1" stroke-dasharray="4 4"/>
+                
+                ${innerLayer}
+
+                <!-- Siluet Kain Pashmina Belakang -->
+                <path d="M44 152C40 98 56 42 94 42C132 42 148 98 144 152H44Z" fill="${colorHex}" fill-opacity="0.72"/>
+                
+                <!-- Bingkai Wajah / Bukaan Hijab -->
+                <ellipse cx="94" cy="76" rx="20" ry="24" fill="#FFF4F6"/>
+                <path d="M74 74C74 58 83 48 94 48C105 48 114 58 114 74" stroke="${colorHex}" stroke-width="5" stroke-linecap="round"/>
+
+                <!-- Lipatan Drapery Depan Pashmina -->
+                <path d="M54 102C66 114 84 120 104 116C122 112 134 98 140 84C146 110 142 138 134 156H52C46 138 48 118 54 102Z" fill="${colorHex}"/>
+                
+                <!-- Highlight Lipatan Kain -->
+                <path d="M60 116C78 128 106 128 130 112" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.55"/>
+                <path d="M56 134C80 146 110 144 134 128" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-opacity="0.4"/>
+                
+                ${extraTexture}
+
+                <!-- Pin / Bros Rose-Gold -->
+                <circle cx="114" cy="115" r="5.5" fill="#DFB763"/>
+                <circle cx="114" cy="115" r="2.2" fill="#FFF8FA"/>
+            </svg>
+            `;
+        }
+
+        // Render Katalog Produk
+        function renderProducts() {
+            const grid = document.getElementById('product-grid');
+            const emptyState = document.getElementById('empty-state');
+
+            const filtered = products.filter(p => {
+                const matchCat = activeCategory === "Semua" || p.categories.includes(activeCategory);
+                const q = searchQuery.toLowerCase();
+                const matchSearch = p.name.toLowerCase().includes(q) ||
+                                    p.material.toLowerCase().includes(q) ||
+                                    p.description.toLowerCase().includes(q);
+                return matchCat && matchSearch;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = "";
+                emptyState.classList.remove('hidden');
+                return;
+            }
+
+            emptyState.classList.add('hidden');
+            grid.innerHTML = filtered.map(product => {
+                const activeColor = selectedColors[product.id];
+                return `
+                <div class="bg-white rounded-3xl border border-pastel-200 overflow-hidden shadow-sm hover:shadow-xl hover:shadow-rosegold-500/10 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <!-- Area Gambar Visual Pashmina Dinamis -->
+                        <div class="relative h-56 p-4 flex items-center justify-center overflow-hidden fabric-sheen transition-colors duration-500"
+                             style="background: linear-gradient(145deg, ${activeColor.hex}2B 0%, #FFF0F5 65%, #FFF8FA 100%);">
+                            
+                            <!-- Badge Model -->
+                            <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full bg-white/95 backdrop-blur text-[10px] font-bold uppercase tracking-wider text-rosegold-600 border border-pastel-200 shadow-sm">
+                                ${product.badge}
+                            </span>
+
+                            <!-- Visual Hijab Pashmina -->
+                            ${getPashminaVisualSVG(product, activeColor.hex)}
+
+                            <!-- Indikator Nama Warna Aktif -->
+                            <div class="absolute bottom-3 right-3 bg-white/95 backdrop-blur px-2.5 py-1 rounded-xl border border-pastel-200 flex items-center gap-1.5 shadow-sm">
+                                <span class="w-2.5 h-2.5 rounded-full border border-black/15" style="background-color: ${activeColor.hex};"></span>
+                                <span class="text-[10px] font-bold text-plum-800">${activeColor.name}</span>
+                            </div>
+                        </div>
+
+                        <!-- Detail Spesifikasi & Pilihan Warna -->
+                        <div class="p-5 pb-3">
+                            <div class="flex items-center justify-between text-[11px] text-rosegold-500 font-semibold mb-1">
+                                <span class="truncate pr-2">${product.material}</span>
+                                <span class="flex-shrink-0 bg-pastel-100 px-2 py-0.5 rounded-md text-plum-800">${product.size}</span>
+                            </div>
+
+                            <h3 class="font-serif text-xl font-bold text-plum-900 leading-snug">${product.name}</h3>
+                            <p class="text-xs text-plum-700/90 mt-1.5 line-clamp-2 leading-relaxed">
+                                ${product.description}
+                            </p>
+
+                            <!-- Pilihan Warna (Swatches) -->
+                            <div class="mt-4">
+                                <p class="text-[11px] font-semibold text-plum-700 mb-2">
+                                    Warna: <span class="text-plum-900 font-bold">${activeColor.name}</span>
+                                </p>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    ${product.colors.map((c, idx) => {
+                                        const isSelected = c.name === activeColor.name;
+                                        return `
+                                        <button onclick="selectColor('${product.id}', ${idx})"
+                                                title="${c.name}"
+                                                aria-label="Pilih warna ${c.name}"
+                                                class="w-6 h-6 rounded-full transition-transform focus:outline-none ${isSelected ? 'scale-110 ring-2 ring-offset-2 ring-rosegold-500' : 'hover:scale-110 ring-1 ring-black/15'}"
+                                                style="background-color: ${c.hex};">
+                                        </button>
+                                        `;
+                                    }).join('')}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer Kartu: Harga & Tombol + Tambah ke Keranjang -->
+                    <div class="p-5 pt-3 border-t border-pastel-100 flex items-center justify-between gap-2">
+                        <div>
+                            <p class="text-[10px] text-plum-700">Harga</p>
+                            <p class="font-serif text-xl font-bold text-plum-900">${formatRupiah(product.price)}</p>
+                        </div>
+                        <button onclick="addToCart('${product.id}')" 
+                                class="px-3.5 py-2.5 rounded-xl bg-gradient-to-r from-rosegold-500 to-blush-500 hover:from-rosegold-600 hover:to-blush-600 text-white text-xs font-bold transition-all flex items-center gap-1.5 shadow-sm active:scale-95">
+                            <i class="fa-solid fa-plus text-[10px]"></i>
+                            <span>Tambah ke Keranjang</span>
+                        </button>
+                    </div>
+                </div>
+                `;
+            }).join('');
+        }
+
+        // Pilih Warna Produk
+        function selectColor(productId, colorIndex) {
+            const product = products.find(p => p.id === productId);
+            if (product) {
+                selectedColors[productId] = product.colors[colorIndex];
+                renderProducts();
+            }
+        }
+
+        // Filter Kategori
+        function filterCategory(category) {
+            activeCategory = category;
+            document.querySelectorAll('.cat-tab').forEach(btn => {
+                if (btn.dataset.cat === category) {
+                    btn.classList.remove('bg-pastel-100', 'text-plum-800');
+                    btn.classList.add('bg-rosegold-500', 'text-white', 'shadow-sm');
+                } else {
+                    btn.classList.remove('bg-rosegold-500', 'text-white', 'shadow-sm');
+                    btn.classList.add('bg-pastel-100', 'text-plum-800');
+                }
+            });
+            renderProducts();
+        }
+
+        // Pencarian Model
+        function handleSearch(val) {
+            searchQuery = val.trim();
+            renderProducts();
+        }
+
+        // Reset Filter
+        function resetFilters() {
+            activeCategory = "Semua";
+            searchQuery = "";
+            document.getElementById('search-input').value = "";
+            filterCategory("Semua");
+        }
+
+        // Tambah ke Keranjang
+        function addToCart(productId) {
+            const product = products.find(p => p.id === productId);
+            const color = selectedColors[productId];
+            const itemKey = `${product.id}_${color.name}`;
+
+            const existing = cart.find(item => item.key === itemKey);
+            if (existing) {
+                existing.qty += 1;
+            } else {
+                cart.push({
+                    key: itemKey,
+                    productId: product.id,
+                    name: product.name,
+                    colorName: color.name,
+                    colorHex: color.hex,
+                    price: product.price,
+                    qty: 1
+                });
+            }
+
+            updateCartUI();
+            showToast(`<b>${product.name}</b> (${color.name}) masuk ke keranjang!`);
+        }
+
+        // Ubah Kuantitas Item
+        function updateItemQty(key, delta) {
+            const idx = cart.findIndex(item => item.key === key);
+            if (idx === -1) return;
+
+            cart[idx].qty += delta;
+            if (cart[idx].qty <= 0) {
+                cart.splice(idx, 1);
+            }
+            updateCartUI();
+        }
+
+        // Hapus Item
+        function removeItem(key) {
+            cart = cart.filter(item => item.key !== key);
+            updateCartUI();
+        }
+
+        // Hitung Ringkasan Belanja
+        function calculateTotals() {
+            const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
+            const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+            const discount = totalQty >= 3 ? 15000 : 0;
+            const grandTotal = Math.max(0, subtotal - discount);
+            return { totalQty, subtotal, discount, grandTotal };
+        }
+
+        // Render UI Keranjang
+        function updateCartUI() {
+            const badge = document.getElementById('header-cart-badge');
+            const heroCount = document.getElementById('hero-cart-count');
+            const subtitle = document.getElementById('cart-subtitle');
+            const container = document.getElementById('cart-items-container');
+            const formSection = document.getElementById('checkout-form-section');
+            const footer = document.getElementById('cart-footer');
+            const subtotalEl = document.getElementById('cart-subtotal');
+            const totalEl = document.getElementById('cart-total');
+            const totalQtyText = document.getElementById('total-qty-text');
+            const discountRow = document.getElementById('discount-row');
+            const promoHint = document.getElementById('promo-hint');
+            const qtyToPromo = document.getElementById('qty-to-promo');
+
+            const { totalQty, subtotal, discount, grandTotal } = calculateTotals();
+
+            badge.textContent = totalQty;
+            if (heroCount) heroCount.textContent = totalQty;
+            subtitle.textContent = `${totalQty} item dipilih`;
+
+            if (cart.length === 0) {
+                container.innerHTML = `
+                    <div class="text-center py-12 px-4 bg-white rounded-3xl border border-pastel-200">
+                        <div class="w-16 h-16 rounded-full bg-pastel-100 text-rosegold-500 flex items-center justify-center mx-auto mb-3 text-2xl">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <h4 class="font-serif text-xl font-bold text-plum-900">Keranjang Masih Kosong</h4>
+                        <p class="text-xs text-plum-700 mt-1 mb-5">Pilih model pashmina dan warna cantik favoritmu dulu yuk!</p>
+                        <button onclick="toggleCart(false)" class="px-5 py-2.5 rounded-xl bg-rosegold-500 text-white text-xs font-bold hover:bg-rosegold-600">
+                            Lihat Katalog Pashmina
+                        </button>
+                    </div>
+                `;
+                formSection.classList.add('hidden');
+                footer.classList.add('hidden');
+                return;
+            }
+
+            formSection.classList.remove('hidden');
+            footer.classList.remove('hidden');
+
+            // Logika Promo Otomatis >= 3 pcs
+            if (discount > 0) {
+                discountRow.classList.remove('hidden');
+                promoHint.innerHTML = `<i class="fa-solid fa-sparkles mr-1"></i> Yay! Kamu hemat <b>Rp 15.000</b> + Gratis Jarum Pentul Rose-Gold!`;
+            } else {
+                discountRow.classList.add('hidden');
+                const sisa = 3 - totalQty;
+                promoHint.innerHTML = `Tambah <span class="font-bold">${sisa} pcs</span> lagi untuk Diskon Otomatis <b>Rp 15.000</b>!`;
+            }
+
+            subtotalEl.textContent = formatRupiah(subtotal);
+            totalEl.textContent = formatRupiah(grandTotal);
+            totalQtyText.textContent = totalQty;
+
+            container.innerHTML = cart.map(item => `
+                <div class="bg-white p-3.5 rounded-2xl border border-pastel-200 flex items-center justify-between gap-3 shadow-sm">
+                    <div class="flex items-center gap-3 min-w-0">
+                        <div class="w-11 h-11 rounded-xl flex-shrink-0 flex items-center justify-center border border-black/10 shadow-inner fabric-sheen"
+                             style="background-color: ${item.colorHex};">
+                            <i class="fa-solid fa-ribbon text-white/90 text-sm drop-shadow"></i>
+                        </div>
+                        <div class="min-w-0">
+                            <h5 class="text-xs font-bold text-plum-900 truncate">${item.name}</h5>
+                            <p class="text-[11px] text-plum-700">Warna: <span class="font-semibold">${item.colorName}</span></p>
+                            <p class="text-xs font-bold text-rosegold-600 mt-0.5">${formatRupiah(item.price * item.qty)}</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-1.5 flex-shrink-0">
+                        <button onclick="updateItemQty('${item.key}', -1)" 
+                                class="w-7 h-7 rounded-lg bg-pastel-100 hover:bg-pastel-200 text-plum-900 text-xs font-bold flex items-center justify-center">
+                            -
+                        </button>
+                        <span class="w-6 text-center text-xs font-bold text-plum-900">${item.qty}</span>
+                        <button onclick="updateItemQty('${item.key}', 1)" 
+                                class="w-7 h-7 rounded-lg bg-pastel-100 hover:bg-pastel-200 text-plum-900 text-xs font-bold flex items-center justify-center">
+                            +
+                        </button>
+                        <button onclick="removeItem('${item.key}')" 
+                                class="w-7 h-7 rounded-lg text-blush-600 hover:bg-pastel-100 text-xs flex items-center justify-center ml-1"
+                                title="Hapus item">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Bangun Invoice WhatsApp & Tautan Pemesanan Unik
+        function buildOrderPayload() {
+            const name = document.getElementById('cust-name').value.trim() || "(Belum diisi)";
+            const phone = document.getElementById('cust-phone').value.trim() || "(Belum diisi)";
+            const shipping = document.getElementById('cust-shipping').value;
+            const address = document.getElementById('cust-address').value.trim() || "(Belum diisi)";
+
+            const { totalQty, subtotal, discount, grandTotal } = calculateTotals();
+
+            let itemLines = "";
+            let compactItems = [];
+
+            cart.forEach((item, idx) => {
+                const sub = item.price * item.qty;
+                itemLines += `${idx + 1}. *${item.name}*\n   • Warna: ${item.colorName}\n   • Jumlah: ${item.qty} pcs (${formatRupiah(sub)})\n`;
+                compactItems.push(`${item.productId}:${encodeURIComponent(item.colorName)}:${item.qty}`);
+            });
+
+            const discountText = discount > 0
+                ? `• Subtotal: ${formatRupiah(subtotal)}\n• Diskon Promo (Min. 3 pcs): -${formatRupiah(discount)} + Gratis Jarum Pentul\n`
+                : "";
+
+            const invoiceMessage =
+`🌸 *INVOICE PEMESANAN - AGS PASHMINA* 🌸
+Halo Admin AGS Pashmina, saya ingin memesan:
+
+*DAFTAR PRODUK:*
+${itemLines}
+*RINGKASAN PEMBAYARAN:*
+• Total Item: ${totalQty} pcs
+${discountText}• *Total Pembayaran: ${formatRupiah(grandTotal)}*
+
+*DATA PEMESAN:*
+• Nama: ${name}
+• No. WhatsApp: ${phone}
+• Pengiriman: ${shipping}
+• Alamat: ${address}
+
+Mohon konfirmasi ketersediaan stok & nomor rekening / QRIS pembayarannya ya Kak. Terima kasih! 🤍`;
+
+            const waUrl = `https://wa.me/${STORE_WA_NUMBER}?text=${encodeURIComponent(invoiceMessage)}`;
+
+            // Buat URL Pemesanan Unik berbasis halaman ini
+            const baseUrl = window.location.href.split('?')[0].split('#')[0];
+            const orderShareUrl = `${baseUrl}?order=${compactItems.join(',')}&nama=${encodeURIComponent(name)}`;
+
+            return { invoiceMessage, waUrl, orderShareUrl };
+        }
+
+        // Kirim Pesanan via WhatsApp
+        function checkoutWhatsApp() {
+            if (cart.length === 0) return;
+
+            const nameEl = document.getElementById('cust-name');
+            const phoneEl = document.getElementById('cust-phone');
+            const addressEl = document.getElementById('cust-address');
+
+            if (!nameEl.value.trim()) {
+                nameEl.focus();
+                showToast("⚠️ Mohon isi <b>Nama Lengkap</b> pemesan terlebih dahulu.");
+                return;
+            }
+            if (!phoneEl.value.trim()) {
+                phoneEl.focus();
+                showToast("⚠️ Mohon isi <b>Nomor WhatsApp</b> Anda terlebih dahulu.");
+                return;
+            }
+            if (!addressEl.value.trim()) {
+                addressEl.focus();
+                showToast("⚠️ Mohon isi <b>Alamat Pengiriman</b> terlebih dahulu.");
+                return;
+            }
+
+            const { waUrl } = buildOrderPayload();
+            window.open(waUrl, '_blank', 'noopener,noreferrer');
+        }
+
+        // Salin Link & Detail Pesanan ke Clipboard
+        function copyOrderLink() {
+            if (cart.length === 0) return;
+
+            const { invoiceMessage, waUrl, orderShareUrl } = buildOrderPayload();
+            const textToCopy = `${invoiceMessage}\n\n🔗 *Link Checkout WhatsApp Langsung:*\n${waUrl}\n\n🛍️ *Link Keranjang AGS Pashmina:*\n${orderShareUrl}`;
+
+            const tempArea = document.createElement('textarea');
+            tempArea.value = textToCopy;
+            document.body.appendChild(tempArea);
+            tempArea.select();
+            try {
+                document.execCommand('copy');
+                showToast("✅ Link pemesanan & detail invoice berhasil disalin!");
+            } catch (e) {
+                showToast("❌ Gagal menyalin rincian pesanan.");
+            }
+            document.body.removeChild(tempArea);
+        }
+
+        // Muat Pesanan dari Parameter URL jika dibuka lewat Link Pemesanan
+        function loadOrderFromUrlParams() {
+            const params = new URLSearchParams(window.location.search);
+            const orderParam = params.get('order');
+            const namaParam = params.get('nama');
+
+            if (namaParam && namaParam !== "(Belum diisi)") {
+                document.getElementById('cust-name').value = namaParam;
+            }
+
+            if (orderParam) {
+                const entries = orderParam.split(',');
+                entries.forEach(entry => {
+                    const [pid, colorEncoded, qtyStr] = entry.split(':');
+                    const prod = products.find(p => p.id === pid);
+                    const qty = parseInt(qtyStr, 10) || 1;
+                    if (prod && colorEncoded) {
+                        const colorName = decodeURIComponent(colorEncoded);
+                        const colorObj = prod.colors.find(c => c.name === colorName) || prod.colors[0];
+                        cart.push({
+                            key: `${prod.id}_${colorObj.name}`,
+                            productId: prod.id,
+                            name: prod.name,
+                            colorName: colorObj.name,
+                            colorHex: colorObj.hex,
+                            price: prod.price,
+                            qty: qty
+                        });
+                    }
+                });
+                if (cart.length > 0) {
+                    updateCartUI();
+                    toggleCart(true);
+                    showToast("🌸 Keranjang pesanan dari tautan berhasil dimuat!");
+                }
+            }
+        }
+
+        // Toggle Drawer Keranjang
+        function toggleCart(open) {
+            const drawer = document.getElementById('cart-drawer');
+            if (open) {
+                drawer.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            } else {
+                drawer.classList.add('hidden');
+                document.body.style.overflow = '';
+            }
+        }
+
+        // Toggle Menu Mobile
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Notifikasi Toast Cantik
+        function showToast(htmlMsg) {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = "animate-slide-up bg-plum-900 text-pastel-50 text-xs px-4 py-3 rounded-2xl shadow-xl border border-rosegold-500/40 flex items-center gap-2.5 max-w-xs";
+            toast.innerHTML = `<span class="w-2.5 h-2.5 rounded-full bg-blush-400 flex-shrink-0"></span><span>${htmlMsg}</span>`;
+            
+            container.appendChild(toast);
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transition = 'opacity 0.3s ease';
+                setTimeout(() => toast.remove(), 300);
+            }, 3200);
+        }
+
+        // Inisialisasi Halaman
+        window.addEventListener('DOMContentLoaded', () => {
+            renderProducts();
+            updateCartUI();
+            loadOrderFromUrlParams();
+        });
+    </script>
+</body>
+</html>
